@@ -1,6 +1,6 @@
 # linux
 
-- [ ]man
+- [ ] man
 - []ls
 - []cd
 - []pwd
