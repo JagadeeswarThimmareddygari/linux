@@ -1,5 +1,5 @@
 # linux
-
+- [ ] tmux
 - [ ] man
 - [ ] ls
 - [ ] cd
