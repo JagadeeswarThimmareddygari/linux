@@ -33,6 +33,7 @@
 - [ ] basename
 - [ ] dirname
 - [ ] ps
+- [ ] htop
 - [ ] top
 - [ ] kill
 - [ ] killall
