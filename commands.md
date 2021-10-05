@@ -51,4 +51,29 @@ You can also use absolute path which starts from the root directory
 ```linux
 cd /mnt
 ```
+---
+
+## pwd command
+Whenever you feel lost in the filesystem,call the  pwd command to know where you are:
+``` bash
+pwd
+```
+
+---
+
+## mkdir command
+You create folders using mkdir command:
+``` bash
+mkdir fruits
+```
+You can create multiple folders using one command
+``` bash
+mkdir python javascript
+```
+You can also create multiple nested folders by adding the -p option:
+``` bash
+mkdir -p fruits/apples
+```
+If you want to find out all the options you can use command man mkdir for more examples.
+
 
