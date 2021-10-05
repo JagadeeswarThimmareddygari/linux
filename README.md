@@ -1,7 +1,7 @@
 # linux
 
 - [ ] man
-- []ls
+- [] ls
 - []cd
 - []pwd
 - []mkdir
