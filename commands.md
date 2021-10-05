@@ -8,7 +8,7 @@ Most of the time when I need to learn a command quickly I use the man <command>.
 Another command which is tldr, this is not a substitute for man, but a handy tool to avoid using yourself in the huge amount of information
 present in a man page.
 ``` linux
-Ex: man ls
+man ls
 ```
 You can use the man page to explore all the different options and parameters you can see on a command.
 
@@ -36,3 +36,19 @@ l- will display from left to right below information
 - The file size in bytes
 - The files last modified datatime
 - The file name
+---
+
+### cd command
+Once you've a folder, you can move into it using the cd command. cd means change directory. You can invoke it by specifying a folder to move into. You can specify a folder name or entire path.
+``` linux
+mkdir devops
+cd deveops
+```
+Now you're in devops folder
+You can use .. special path to indicate the parent folder.
+cd .. # moves to the previous directory
+You can also use absolute path which starts from the root directory
+```linux
+cd /mnt
+```
+
