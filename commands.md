@@ -1,7 +1,7 @@
-### tmux
+## tmux
 
 ---
-### man
+## man
 
 man page contains so much information about the commands that you want to look at sometimes it's almost too much.
 Most of the time when I need to learn a command quickly I use the man <command>. It gives a very quick overview of command.
@@ -13,7 +13,7 @@ man ls
 You can use the man page to explore all the different options and parameters you can see on a command.
 
 ---
-### ls
+## ls
 You can list all the files that the folder contains using the ls command:
 ``` linux
 ls
@@ -38,7 +38,7 @@ l- will display from left to right below information
 - The file name
 ---
 
-### cd command
+## cd command
 Once you've a folder, you can move into it using the cd command. cd means change directory. You can invoke it by specifying a folder to move into. You can specify a folder name or entire path.
 ``` linux
 mkdir devops
@@ -76,4 +76,46 @@ mkdir -p fruits/apples
 ```
 If you want to find out all the options you can use command man mkdir for more examples.
 
+---
+## rmdir command
+Just as you can creat a folder using mkdir, you can delete a folder using rmdir.
+
+``` bash
+rmdir fruits
+```
+You can delete multiple folders at once
+```bash
+rmdir python javascript
+```
+The folder that you delete must be empty
+To delete the folder with files in them, we'll use the more generic rm command which deletes all files and folders using -rf option.
+``` bash
+rm -rf python javascript
+```
+Be careful as this command doesn't ask for confirmation. It'll immediately remove anything that you ask it to remove.
+There is no bin when removing files from command line, and recovering lost files can be hard.
+
+---
+## mv command
+Once you've a file you can move it around using mv command. You can specify the current file path and it's new path.
+
+``` bash
+mv lab4 lab5
+```
+lab4 file is now moved to lab5 file. This is how you rename files and folders.
+
+``` bash
+mv pear apple fruits
+```
+---
+## cp command
+You can copy file using the cp command:
+``` bash
+cp apple another_apple
+```
+To copy folders you need to add the -r option to recursively copy the whole folder contents:
+``` bash
+cp -r python javascript
+```
+pear and apple moved to the fruits folder.
 
