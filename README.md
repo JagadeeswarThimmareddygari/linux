@@ -9,9 +9,9 @@
 - [x] mv
 - [x] cp
 - [ ] open
-- [ ] touch
+- [x] touch
 - [ ] find
-- [ ] ln
+- [x] ln
 - [ ] gzip
 - [ ] gunzip
 - [ ] tar
@@ -44,7 +44,7 @@
 - [ ] which
 - [ ] nohup
 - [ ] xargs
-- [ ] vim - editor command
+- [x] vim - editor command
 - [ ] emacs  - editor command
 - [ ] nono - editor command
 - [ ] whoami
@@ -54,7 +54,7 @@
 - [ ] passwd
 - [ ] ping
 - [ ] traceroute
-- [ ] clear
+- [x] clear
 - [ ] history
 - [ ] export
 - [ ] crontab
