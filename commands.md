@@ -169,7 +169,7 @@ For example, you have created a file called fruits.txt. You can create soft link
 ``` bash
 ln -s fruits.txt new_fruits.txt
 ```
-In this case you can see there's a special flag when you list the file using ls -al. The file has a @ at the end.
+In this case you can see there's a special flag when you list the file using ls -al. The file has a @ at the end or you see new_fruits -> fruits.
 Now if you delete the original file, the link will be broken, and the shell will tell you "No such file or directory" if you try to access it.
 
 ---
