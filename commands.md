@@ -137,6 +137,25 @@ Example:
 find all the files under the current tree that have the .py extension and print the relative path of each file that matches:
 ``` bash
 find . -name '*.py'
-
+```
 >Have to update some more commands
-
+---
+## ln command
+It's used to create links. What's is a link? It's like a pointer to another file, or a file that points to another file.
+We've 2 types of links
+- Hard links
+- Soft links
+#### Hard links
+ Hard links are rarely used. They have a few limitations: you can't link to directories and you can't link to external file systems(disks).
+ A hard link is created using the following the syntax:
+ ``` bash
+ ln <original> <link>
+ ```
+ For example you have a file called fruits.txt. You can create a hard link to it using:
+ ``` bash
+ ln fruits.txt new_fruits.txt
+ ```
+ The new hard link that you've created is indistinguishable from a regular file.
+ Now you can edit any of those files, the content will be updated for both.
+ If you delete the orginal file, the link will still contain the original file content, as that's not removed until  there is one hard
+ link pointing to it.
