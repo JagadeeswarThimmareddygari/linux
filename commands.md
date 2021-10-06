@@ -36,6 +36,9 @@ l- will display from left to right below information
 - The file size in bytes
 - The files last modified datatime
 - The file name
+
+| Also one of my favorite command is tree command to display all files and directories in the current folder.
+
 ---
 
 ## cd command
@@ -107,6 +110,9 @@ lab4 file is now moved to lab5 file. This is how you rename files and folders.
 ``` bash
 mv pear apple fruits
 ```
+
+pear and apple moved to the fruits folder.
+
 ---
 ## cp command
 You can copy file using the cp command:
@@ -117,5 +123,6 @@ To copy folders you need to add the -r option to recursively copy the whole fold
 ``` bash
 cp -r python javascript
 ```
-pear and apple moved to the fruits folder.
+
+##
 
