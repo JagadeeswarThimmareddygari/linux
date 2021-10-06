@@ -1,13 +1,13 @@
 # linux
-- [x] tmux
-- [ ] man
-- [ ] ls
-- [ ] cd
-- [ ] pwd
-- [ ] mkdir
-- [ ] rmdir
-- [ ] mv
-- [ ] cp
+- [ ] tmux
+- [x] man
+- [x] ls
+- [x] cd
+- [x] pwd
+- [x] mkdir
+- [x] rmdir
+- [x] mv
+- [x] cp
 - [ ] open
 - [ ] touch
 - [ ] find
