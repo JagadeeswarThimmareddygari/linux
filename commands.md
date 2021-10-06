@@ -159,3 +159,17 @@ We've 2 types of links
  Now you can edit any of those files, the content will be updated for both.
  If you delete the orginal file, the link will still contain the original file content, as that's not removed until  there is one hard
  link pointing to it.
+#### Soft links
+Soft links are different. They  are more powerful as you can link to other filesystems and to directories. But keep in mind that the original is removed, the link will be broken.
+You can create soft links using the -s option of ln:
+``` bash
+ln -s <original> <link>
+```
+For example, you have created a file called fruits.txt. You can create soft link to it using:
+``` bash
+ln -s fruits.txt new_fruits.txt
+```
+In this case you can see there's a special flag when you list the file using ls -al. The file has a @ at the end.
+Now if you delete the original file, the link will be broken, and the shell will tell you "No such file or directory" if you try to access it.
+
+---
