@@ -37,7 +37,7 @@ l- will display from left to right below information
 - The files last modified datatime
 - The file name
 
-| Also one of my favorite command is tree command to display all files and directories in the current folder.
+> Also one of my favorite command is tree command to display all files and directories in the current folder.
 
 ---
 
@@ -123,6 +123,20 @@ To copy folders you need to add the -r option to recursively copy the whole fold
 ``` bash
 cp -r python javascript
 ```
+---
+## touch command
+You can create an empty file using the touch command:
+``` bash
+touch apple
+```
+If the file already exists, it opens the file in write mode, and time stamp of the file is updated.
 
-##
+## find command
+The find command is used to find files or folders matching a particular search pattern.It searches recursively
+Example:
+find all the files under the current tree that have the .py extension and print the relative path of each file that matches:
+``` bash
+find . -name '*.py'
+
+>Have to update some more commands
 
