@@ -1,4 +1,4 @@
-# linux
+# linux (Basic Commands Everone should know)
 - [x] tmux
 - [x] man
 - [x] ls
