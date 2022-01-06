@@ -50,7 +50,8 @@ To rename the session, type the following command
 ```script
 tmux rename-session -t 0 htop
 ```
-> 0 is the previous session name,renaming it to htop
+> 0 is the previous session name,to rename 0 to htop
+
 If you want to create a new session, type the following command
 ```script
 tmux new -s docker
