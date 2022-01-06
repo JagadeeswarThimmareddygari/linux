@@ -10,7 +10,7 @@
 - [x] cp
 - [ ] open
 - [x] touch
-- [ ] find
+- [x] find
 - [x] ln
 - [ ] gzip
 - [ ] gunzip
