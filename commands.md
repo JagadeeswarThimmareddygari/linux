@@ -11,6 +11,20 @@ Once the installation is done, first we need to get into the tmux. Type the comm
 ```script
 tmux
 ```
+press the following command on your windows to split the screen vertical
+```script
+ctrl+b+%
+```
+Press the following command on your windows to split the screen horizontal
+```script
+ctrl+b+"
+
+To navigate between terminals type the following command
+```script
+ctrl+b+(navigation symbol <- or ->)
+```
+
+
 
 
 
