@@ -23,6 +23,46 @@ To navigate between terminals type the following command
 ```script
 ctrl+b+(navigation symbol <- or ->)
 ```
+If you want to create a new windows instead of splitting the terminals, type the following command and you'll see at the bottom the value followed by bash.
+```script
+ctrl+b+c
+```
+After the creating the multiple windows if you want to navigate to each terminal then we use the following command below, and also observer the asterisk symbol at the bottom which is pointing to the current windows number. It looks like 2:bash*
+```script
+ctrl+b+(terminal number 0 or 1 or 2 or 3..)
+```
+If you want to see the sessions running in the background type the following command
+```script
+tmux ls
+```
+If you want to detach the session type the following command
+```script
+ctrl + b +d
+```
+
+If you want to open the session type the follwing command
+```script
+tmux attach -t 0
+```
+> instead of 0, you can specify any other session number
+
+To rename the session, type the following command
+```script
+tmux rename-session -t 0 htop
+```
+> 0 is the previous session name,renaming it to htop
+If you want to create a new session, type the following command
+```script
+tmux new -s docker
+```
+>docker is the session name, you can write any name that you want it.
+
+If you want to delete the session or kill the session, type the follwing command
+```script
+tmux kill-session -t docker
+```
+> We deleted the session name called docker 
+
 
 
 
