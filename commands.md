@@ -1,5 +1,10 @@
 ## tmux
+tmux is a open source terminal multiplexer. It allows multiple terminal sessions to be accessed simultaneously in a single window.
 
+To install the package type the following command in your terminal
+```script
+sudo apt install tmux
+```
 ---
 ## man
 
